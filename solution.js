@@ -19,7 +19,7 @@ function functionA(array) {
 
     return array;
 }
-console.log(functionA(["1", "2", "3", "4", "5", "6", "7", "8", "9"]));
+console.log(functionA([Math.PI, 2, 3, 4, 5, 6, 7, 8, 9]));
 
 //array von a wird mit array von b berglichen wenn a gerößer dann return array richtiger reinfolge.
 //wörter und nummern werden sortiert wenn b größer a wird groß zu klein angezeigt.
@@ -41,9 +41,7 @@ function functionB(array) {
     }
     return array;
 }
-console.log(
-    functionB(["Max", "Monika", "Anton", "Anna", "Hubertus", "Hans-Peter"])
-);
+console.log(functionB([1, 4, 8777, 224, 45, 66, 7]));
 // function sortziert array es zeigt zuerst
 
 function functionC(array) {
